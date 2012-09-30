@@ -163,7 +163,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #fff;
-  background-color: #464751;
+  background-color: #fff;
 }
 
 a {
@@ -5728,7 +5728,7 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #464751;
+  background-color: #fff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
