@@ -11,8 +11,9 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 60px;
-        padding-bottom: 40px;
+        padding-top: 1px;
+        padding-bottom: 10px;
+        color:gray;
       }
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -61,11 +62,46 @@
 
     <div class="container">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-	<img src="images/Buya-Interior-Header.png"></img>
-	<p class="lead"> FOR BUYERS CONTENT GOES HERE </p>
-        <img src="images/Buya-Interior-Footer.png"></img>
+   <-------------------     Main message section   ------------ -->
+
+    <div class="hero-unit">
+      <img src="images/Buya-Interior-Header.png"></img>
+    <form class="form-horizontal">
+    	<legend>For Buyers</legend>
+    	<label>Please Enter Your Information</label>
+    	<div class="control-group">
+           <label class="control-label" for="input Phone">Phone</label>
+   	 <div class="controls">
+           <input type="phone" id="inputphone" placeholder="xxx-xxx-xxxx">
+         </div>
+        </div>
+    	<div class="control-group">
+           <label class="control-label" for="name">Name</label> 
+   	<div class="controls">
+           <input type="text" placeholder="your name…">
+	 </div>
+	</div>
+ 	<div class="control-group">
+	   <label class="control-label" for="inputEmail">Email</label>
+	<div class="controls">
+	   <input type="text" id="inputEmail" placeholder="Email">
+	</div>
+        </div>
+	<label class="radio">
+	<input type="radio" name="I'm a QualifiedBuyer" id="qualifiedbuyerradio1" value="I'm a Qualified Buyer" checked>
+		Please check here if you are a fully qualified buyer
+	</label>
+	<label class="radio">
+	<input type="radio" name="notqualifiedbuer" id="qualifiedbuyerradios2" value="Not Qualified yet">
+		Please check here if you have not yet qualified buyer
+	</label>
+    	<button type="submit" class="btn">Register</button>
+    	<span class="help-block">Thank you for registering!!</span>
+      </div>
+      </div>
+    </form>
+ 
+  <img src="images/Buya-Interior-Footer.png"></img>
       </div>
 
       <!-- Example row of columns -->
